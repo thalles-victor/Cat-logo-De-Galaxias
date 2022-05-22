@@ -87,3 +87,20 @@ não requer nenhuma infromação já que vai pegar todas as galaxias registradas
 ```console
   curl http://localhost:3333/galaxies
 ```
+
+## Delete
+Remove uma galáxia
+
+O valor indentificador é o id da galáxia, ele tem que ser passado no parâmetro da requisição
+
+```
+  /galaxies/:id
+```
+
+### Teste com o curl
+
+Não se esqueça de mudar o id na hora de testar.
+
+```console
+  curl -X DELETE http://localhost:3333/galaxies/f7711bde-7106-4484-a9a8-2a2585253710
+```

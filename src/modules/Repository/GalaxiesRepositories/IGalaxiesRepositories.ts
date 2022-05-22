@@ -12,4 +12,5 @@ export interface IGalaxiesRepositories {
     numberOfBlackHoles,
     numberOfSuperMassiveBlackHoles
   }: IGalaxiesRepositoriesDTO): void;
+  remove(id: string): void;
 }

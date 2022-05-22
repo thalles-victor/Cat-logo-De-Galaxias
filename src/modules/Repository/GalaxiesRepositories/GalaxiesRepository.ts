@@ -42,8 +42,16 @@ export class GalaxiesRepository implements IGalaxiesRepositories {
     });
 
     this.galaxies.push(galaxy);
-    console.log(this.galaxies);
+  }
 
-    
+  remove(id: string) {
+   
+    const index = this.galaxies.findIndex((galaxy) => galaxy.id === id);
+    console.log(index);
+    if (index < 0) {
+      throw new Error("This galaxy not exist!");
+    }
+
+    this.galaxies.splice(index, 1);
   }
 }
