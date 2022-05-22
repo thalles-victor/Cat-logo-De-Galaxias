@@ -60,7 +60,7 @@ body
 
 ```console
 curl -X POST http://localhost:3333/galaxies -H 'Content-Type: application/json' \
--d '{ "name": "Andromeda", "description": "A galaxia mais próxima de nos, e colidiremos com ela", "uncovered": "25/03/199", "numberOfStars": 123, "numberOfBlackHoles": 10, "numberOfSuperMassiveBlackHoles": 1 }'
+-d '{ "name": "Andromeda", "description": "A galaxia mais próxima de nós e que no futuro a via lactea (nossa galáxia) colidira com ela", "uncovered": "ano de 905", "numberOfStars": 1000000000000, "numberOfBlackHoles": 26, "numberOfSuperMassiveBlackHoles": 1 }'
 ```
 
 ## Get
