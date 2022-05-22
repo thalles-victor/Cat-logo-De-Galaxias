@@ -2,7 +2,7 @@
 # Galaxies Catalog 
 <img src="https://i.pinimg.com/originals/c9/97/6f/c9976fc3a92540856bb957a76818875d.gif"  width="100%">
 
-![struct](https://ibb.co/c6Wskw9)
+![struct](https://i.ibb.co/m9nPb0K/Screenshot-from-2022-05-22-17-58-46.png)
 
 Este projeto é um back end para fazer um catálogo de galáxias usando como base o express usando os conceitos de Clean nodeJS e SOLID.
 
