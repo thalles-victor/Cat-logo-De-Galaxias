@@ -5,15 +5,8 @@ import { router } from './routes'
 
 const app = express();
 
-const allowedOrigins = [
-  'http://localhost:3000'
-];
-const corsOption: cors.CorsOptions = {
-  origin: allowedOrigins
-};
-
 app.use(express.json());
-app.use(cors(corsOption));
+app.use(cors());
 app.use(router);
 
 app.get("/", (request, response) => {
