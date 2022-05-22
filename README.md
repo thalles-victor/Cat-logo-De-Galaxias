@@ -2,6 +2,8 @@
 # Galaxies Catalog 
 <img src="https://i.pinimg.com/originals/c9/97/6f/c9976fc3a92540856bb957a76818875d.gif"  width="100%">
 
+![struct](https://ibb.co/c6Wskw9)
+
 Este projeto é um back end para fazer um catálogo de galáxias usando como base o express usando os conceitos de Clean nodeJS e SOLID.
 
 Para iniciar o projeto, é nescessário adicionar a pasta node_modules com o npm ou yarn.
